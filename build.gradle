@@ -1,0 +1,12 @@
+apply plugin: "java"
+
+buildDir = "dist"
+sourceCompatibility = JavaVersion.VERSION_1_8
+
+sourceSets {
+  main {
+    java {
+      srcDir 'src'
+    }
+  }
+}
